@@ -11,7 +11,7 @@ def run_guessing_game
   prompt_user
   comp_num = random_number_generator
   user_input = gets.chomp
-  if user_input == comp_num
+  if comp_num == user_input
     puts "You guessed the correct number!"
   elsif user_input == 'exit'
     puts "Goodbye!"
