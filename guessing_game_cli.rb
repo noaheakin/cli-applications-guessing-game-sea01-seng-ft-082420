@@ -5,10 +5,11 @@ def run_guessing_game
   while guess != "exit" do
     if guess == number
       puts "You guessed the correct number!"
-    else
+    elsif guess != number
       puts "The computer guessed #{number}."
-    end
+    else
     run_guessing_game
+    end
   end
   puts "Goodbye!"
 end
