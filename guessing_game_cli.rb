@@ -15,6 +15,6 @@ def run_guessing_game
   elsif user_input == comp_num
     return "You guessed the correct number!"
   else
-    puts "Sorry! The computer guessed #{comp_num}."
+    return "Sorry! The computer guessed #{comp_num}."
   end
 end
