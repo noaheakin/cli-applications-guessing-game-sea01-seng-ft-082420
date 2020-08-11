@@ -10,4 +10,6 @@ end
 def run_guessing_game
   comp_num = random_number_generator
   user_input = gets.chomp
+  if user_input == 'exit'
+    puts "Goodbye!"
 end
