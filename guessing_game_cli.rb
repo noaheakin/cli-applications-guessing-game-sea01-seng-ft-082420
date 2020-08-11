@@ -3,6 +3,8 @@ def random_number_generator
   rand (1..6)
 end
 
+binding.pry
+
 def prompt_user
   puts "Guess a number between 1 and 6."
 end
