@@ -11,11 +11,5 @@ def run_guessing_game
   comp_num = random_number_generator
   user_input = gets.chomp
   binding.pry
-  if user_input == comp_num
-    puts "You guessed the correct number!"
-  elsif user_input == 'exit'
-    puts "Goodbye!"
-  elsif user_input != 'comp_num'
-    puts "Sorry! The computer guessed #{comp_num}."
-  end
+  
 end
