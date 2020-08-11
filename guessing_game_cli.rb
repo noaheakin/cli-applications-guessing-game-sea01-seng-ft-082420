@@ -1,6 +1,6 @@
 require 'pry'
 def random_number_generator
-  return rand (1..6)
+  rand (1..6)
 end
 binding.pry
 def prompt_user
