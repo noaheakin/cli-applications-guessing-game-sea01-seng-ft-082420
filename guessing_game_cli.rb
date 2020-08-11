@@ -4,7 +4,7 @@ def random_number_generator
 end
 
 def prompt_user
-  p "Guess a number between 1 and 6"
+  "Guess a number between 1 and 6"
 end
 
 def get_user_input
