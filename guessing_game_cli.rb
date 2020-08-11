@@ -9,6 +9,7 @@ end
 
 def get_user_input
   return gets.chomp
+end
 
 def run_guessing_game
   comp_num = random_number_generator
