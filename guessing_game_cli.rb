@@ -12,6 +12,7 @@ def get_user_input
 end
 
 def run_guessing_game
+  prompt_user
   comp_num = random_number_generator
   user_input = get_user_input
   if user_input == comp_num
