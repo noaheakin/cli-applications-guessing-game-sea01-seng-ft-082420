@@ -4,11 +4,11 @@ def random_number_generator
 end
 
 def prompt_user
-  puts "Guess a number between 1 and 6"
+  p "Guess a number between 1 and 6"
 end
 
 def get_user_input
-  puts gets.chomp
+  return gets.chomp
 end
 
 def run_guessing_game
