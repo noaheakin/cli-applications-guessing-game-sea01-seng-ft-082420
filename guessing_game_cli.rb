@@ -15,10 +15,10 @@ def run_guessing_game
   comp_num = random_number_generator
   user_input = get_user_input
   if user_input == comp_num
-    return "You guessed the correct number!"
+    puts "You guessed the correct number!"
   elsif user_input == 'exit'
     puts "Goodbye!"
   elsif user_input != comp_num
-    return "Sorry! The computer guessed 6."
+    puts "Sorry! The computer guessed 6."
   end
 end
