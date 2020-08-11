@@ -1,3 +1,4 @@
+require 'pry'
 def random_number_generator
   rand 1..6
 end
