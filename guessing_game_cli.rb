@@ -8,7 +8,7 @@ def prompt_user
 end
 
 def get_user_input
-  return gets.chomp
+  puts gets.chomp
 end
 
 def run_guessing_game
@@ -17,6 +17,9 @@ def run_guessing_game
   user_input = get_user_input
   if user_input == comp_num
     puts "You guessed the correct number!"
-  
+  elsif user_input == 'exit'
+    puts "Goodbye!"
+  elsif user_input != comp_num
+    puts "Sorry! The computer guessed #{comp_num}."
   end
 end
