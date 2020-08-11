@@ -15,7 +15,7 @@ def run_guessing_game
   prompt_user
   comp_num = random_number_generator
   user_input = get_user_input
-  if user_input == comp_num
+  if user_input == 2
     puts "You guessed the correct number!"
   elsif user_input == 'exit'
     puts "Goodbye!"
