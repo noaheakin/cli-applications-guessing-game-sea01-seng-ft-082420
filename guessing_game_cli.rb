@@ -10,7 +10,7 @@ end
 def get_user_input
   gets.chomp.to_s
 end
-
+binding.pry
 def run_guessing_game
   prompt_user
   comp_num = random_number_generator
