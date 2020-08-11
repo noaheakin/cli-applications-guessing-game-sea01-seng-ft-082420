@@ -15,11 +15,11 @@ def run_guessing_game
   prompt_user
   comp_num = random_number_generator
   user_input = get_user_input
-  if user_input 
+  if user_input == comp_num
     puts "You guessed the correct number!"
   elsif user_input == 'exit'
     puts "Goodbye!"
   elsif user_input != comp_num
-    puts "Sorry! The computer guessed 6."
+    puts "Sorry! The computer guessed #{comp_num}."
   end
 end
