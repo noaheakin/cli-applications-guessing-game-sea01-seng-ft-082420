@@ -10,11 +10,11 @@ end
 def get_user_input
   return gets.chomp.to_s
 end
-
+binding.pry
 def run_guessing_game
   puts "Guess a number between 1 and 6."
   comp_num = rand 1..6
-  binding.pry
+
   user_input = gets.chomp
   if user_input == comp_num
     puts "You guessed the correct number!"
